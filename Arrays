@@ -1,0 +1,14 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a[10],i;
+cout<<"Enter elements:";
+for(i=0;i<5;i++)
+cin>>a[i];
+cout<<"You entered:";
+for(i=0;i<5;i++)
+cout<<a[i]<<endl;
+getch();
+}
